@@ -45,7 +45,7 @@ html{
     height: 40.5px;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 12.5rem;
+    width: 15.5rem;
     border-radius: 3.5px;
     padding-left: 25px;
     border: 2px solid rgb(185, 183, 178);
@@ -54,6 +54,7 @@ html{
     margin-left: 7%;
     display: flex;
     margin-top: 15px;
+
 }
 .icon a :hover{
     color: bisque;
@@ -233,7 +234,7 @@ header{
   
   .speciality .box-container .box:hover .content{
     transform: translateY(100%);
-    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: 0.25s
   }
   
   .popular .box-container{
@@ -338,6 +339,7 @@ header{
     font-size: 3.5rem;
     padding:1rem;
     color:#666;
+    margin: 5rem;
   }
   
   .heading span{
@@ -431,6 +433,11 @@ header{
     border:.1rem solid rgba(0,0,0,.3);
     cursor: pointer;
     border-radius: .5rem;
+  }
+  .speciality .box-container .content:hover {
+    transition: 0.75s;
+    display:block;
+    opacity: 1;
   }
   
   .speciality .box-container .box .image{
